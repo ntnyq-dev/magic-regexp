@@ -1,5 +1,4 @@
-import { it, describe } from 'vitest'
-import { expectTypeOf } from 'expect-type'
+import { it, describe, expectTypeOf } from 'vitest'
 import * as flags from '../src/core/flags'
 import type { Flag } from '../src/core/flags'
 

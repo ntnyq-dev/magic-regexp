@@ -21,7 +21,6 @@ importers:
       eslint-config-prettier: latest
       eslint-plugin-prettier: latest
       estree-walker: ^3.0.1
-      expect-type: 0.15.0
       husky: latest
       lint-staged: latest
       magic-string: ^0.29.0
@@ -49,12 +48,11 @@ importers:
       '@vitest/coverage-c8': 0.28.5
       acorn: 8.8.2
       bumpp: 8.2.1
-      c8: 7.12.0
+      c8: 7.13.0
       conventional-changelog-conventionalcommits: 5.0.0
       eslint: 8.34.0
       eslint-config-prettier: 8.6.0_eslint@8.34.0
       eslint-plugin-prettier: 4.2.1_u5wnrdwibbfomslmnramz52buy
-      expect-type: 0.15.0
       husky: 8.0.3
       lint-staged: 13.1.2
       pinst: 3.0.0
@@ -1883,7 +1881,7 @@ packages:
   /@vitest/coverage-c8/0.28.5:
     resolution: {integrity: sha512-zCNyurjudoG0BAqAgknvlBhkV2V9ZwyYLWOAGtHSDhL/St49MJT+V2p1G0yPaoqBbKOTATVnP5H2p1XL15H75g==}
     dependencies:
-      c8: 7.12.0
+      c8: 7.13.0
       picocolors: 1.0.0
       std-env: 3.3.2
       vitest: 0.28.5
@@ -2505,8 +2503,8 @@ packages:
       - supports-color
     dev: true
 
-  /c8/7.12.0:
-    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
+  /c8/7.13.0:
+    resolution: {integrity: sha512-/NL4hQTv1gBL6J6ei80zu3IiTrmePDKXKXOTLpHvcIWZTVYQlDhVWjjWvkhICylE8EwwnMVzDZugCvdx0/DIIA==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
@@ -3927,10 +3925,6 @@ packages:
       onetime: 6.0.0
       signal-exit: 3.0.7
       strip-final-newline: 3.0.0
-    dev: true
-
-  /expect-type/0.15.0:
-    resolution: {integrity: sha512-yWnriYB4e8G54M5/fAFj7rCIBiKs1HAACaY13kCz6Ku0dezjS9aMcfcdVK2X8Tv2tEV1BPz/wKfQ7WA4S/d8aA==}
     dev: true
 
   /extend/3.0.2:

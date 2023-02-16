@@ -1,5 +1,4 @@
-import { expect, it, describe } from 'vitest'
-import { expectTypeOf } from 'expect-type'
+import { expect, it, describe, expectTypeOf } from 'vitest'
 
 import {
   anyOf,
